@@ -1,5 +1,4 @@
 {
-  "port": 5555,
   "jwtSecret": "f6a9c6b6",
   "expiresToken": "1h",
   "dbUri": "mongodb+srv://eugeny-pol:xnsuWaNc8Ji3D2m@cluster0.jmsr2.mongodb.net/appdb?retryWrites=true&w=majority"

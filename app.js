@@ -9,7 +9,7 @@ app.use(express.json({ extended: true}))
 
 app.use('/api/auth', require('./routes/auth.routes'))
 app.use('/api/data', require('./routes/data.routes'))
-
+app.use(express.static(path.join(__dirname, 'public')))
 // if (process.env.NODE_ENV === 'production') {
 //     app.use('/', express.static(path.join(__dirname, 'client', 'build')))
 //
